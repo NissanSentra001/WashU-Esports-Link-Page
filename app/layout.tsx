@@ -78,9 +78,7 @@ export default async function RootLayout({
         {cfg.THEME_OS && <link rel="stylesheet" href="css/os.css" />}
         <link rel="stylesheet" href="css/littlelink.css" />
         <link rel="stylesheet" href="css/brands.css" />
-        {cfg.FAVICON_URL && (
-          <link rel="icon" href={cfg.FAVICON_URL} />
-        )}
+        {cfg.FAVICON_URL && <link rel="icon" href={cfg.FAVICON_URL} />}
         <AnalyticsScripts config={cfg} />
       </head>
       <body>

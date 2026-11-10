@@ -53,7 +53,8 @@ function Button(props: ButtonProps) {
   const target = buttonTarget || '_blank';
   const rel = rels || 'noopener noreferrer';
   const eventName = name ? `${name}-button` : undefined;
-  const isImageIcon = icon?.startsWith('https://') || icon?.startsWith('http://');
+  const isImageIcon =
+    icon?.startsWith('https://') || icon?.startsWith('http://');
 
   return (
     <a
