@@ -24,7 +24,7 @@ jobs:
     uses: ./.github/workflows/minimal-env-e2e.yml
 
   publish-images:
-    name: Publish container images
+    name: Publish GHCR image
     needs: [quality-gate, browser-e2e, container-e2e]
     permissions:
       actions: write
@@ -32,5 +32,3 @@ jobs:
     uses: ./.github/workflows/build-and-push.yml
     secrets:
       PAT: ${{ secrets.PAT }}
-      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}

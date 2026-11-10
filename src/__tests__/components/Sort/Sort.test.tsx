@@ -52,4 +52,23 @@ describe('<Sort />', () => {
     expect(links[2].getAttribute('href')).toEqual('twitch.tv');
     expect(links[3].getAttribute('href')).toEqual('youtube.com');
   });
+
+  test('renders non-element children without sorting errors', () => {
+    const { container } = render(
+      <Sort>
+        {'Label'}
+        <Button
+          name="youtube"
+          href="youtube.com"
+          displayName="YouTube"
+          order={1}
+        />
+      </Sort>,
+    );
+
+    expect(container.textContent).toContain('Label');
+    expect(container.querySelector('a')?.getAttribute('href')).toBe(
+      'youtube.com',
+    );
+  });
 });

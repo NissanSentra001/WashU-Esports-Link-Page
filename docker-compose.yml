@@ -2,7 +2,7 @@
 # this is used for local development and testing
 services:
   little-link:
-    image: ghcr.io/timothystewart6/littlelink-server:latest
+    image: ghcr.io/capcomman07/littlelink-server:latest
     # dockerhub is also supported timothystewart6/littlelink-server
     #image: timothystewart6/littlelink-server:latest
     container_name: littlelink-server
@@ -68,7 +68,7 @@ services:
       - INSTAGRAM=
       - INSTANTGAMING=
       - INTERNETARCHIVE=
-      - JETPHOTOS=https://www.jetphotos.com/
+      - JETPHOTOS=
       - KAKAOTALK=
       - KEYBASE=
       - KIT=
@@ -77,7 +77,7 @@ services:
       - LEMMY=
       - LETTERBOXD=
       - LINE=
-      - LINKED_IN=https://linkedin.com
+      - LINKED_IN=
       - MAKERWORLD=
       - MASTODON=
       - MATOMO_SITE_ID=42
@@ -141,13 +141,13 @@ services:
       - STEAM=
       - STRAVA=
       - STREAMLABS=
-      - SUBSTACK=https://substack.com/
+      - SUBSTACK=
       - TEESPRING=
       - TELEGRAM=
       - THEME=Dark
       - THEME_OS=
       - THESTORYGRAPH=
-      - THREADS=https://www.threads.net/
+      - THREADS=
       - THREEMA=
       - TIDAL=
       - TIKTOK=
