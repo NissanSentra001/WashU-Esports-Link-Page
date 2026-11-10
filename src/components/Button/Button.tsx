@@ -53,6 +53,7 @@ function Button(props: ButtonProps) {
   const target = buttonTarget || '_blank';
   const rel = rels || 'noopener noreferrer';
   const eventName = name ? `${name}-button` : undefined;
+  const isImageIcon = icon?.startsWith('https://') || icon?.startsWith('http://');
 
   return (
     <a
@@ -66,7 +67,11 @@ function Button(props: ButtonProps) {
     >
       {logo && <img className="icon" src={logo} alt={`${displayName} logo`} />}
 
-      {icon && (
+      {icon && isImageIcon && (
+        <img className="icon" src={icon} alt={`${displayName} logo`} />
+      )}
+
+      {icon && !isImageIcon && (
         <FontAwesomeIcon className="icon" icon={icon.split(' ') as IconProp} />
       )}
 

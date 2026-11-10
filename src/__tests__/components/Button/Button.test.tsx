@@ -31,6 +31,23 @@ describe('<Button />', () => {
     expect(img?.getAttribute('alt')).toBe('GitHub logo');
   });
 
+  test('renders an image URL as the custom icon', () => {
+    const { container } = render(
+      <Button
+        name="startgg"
+        href="https://start.gg"
+        displayName="Start.gg"
+        icon="https://images.example.com/startgg.png"
+      />,
+    );
+    const img = container.querySelector('img');
+    expect(img?.getAttribute('src')).toBe(
+      'https://images.example.com/startgg.png',
+    );
+    expect(img?.getAttribute('alt')).toBe('Start.gg logo');
+    expect(container.querySelector('svg')).toBeNull();
+  });
+
   test('renders with custom styles', () => {
     const { container } = render(
       <Button
