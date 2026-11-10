@@ -2,7 +2,7 @@
 # this is used for local development and testing
 services:
   little-link:
-    image: ghcr.io/capcomman07/littlelink-server:latest
+    image: ghcr.io/nissansentra001/littlelink-server:latest
     # dockerhub is also supported timothystewart6/littlelink-server
     #image: timothystewart6/littlelink-server:latest
     container_name: littlelink-server

@@ -29,6 +29,5 @@ jobs:
     permissions:
       actions: write
       contents: read
+      packages: write
     uses: ./.github/workflows/build-and-push.yml
-    secrets:
-      PAT: ${{ secrets.PAT }}

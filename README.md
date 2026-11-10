@@ -135,7 +135,7 @@ The example below will generate a site exactly like <https://links.technotim.com
 version: "3.0"
 services:
   littlelink-server:
-    image: ghcr.io/capcomman07/littlelink-server:latest
+    image: ghcr.io/nissansentra001/littlelink-server:latest
     # dockerhub is also supported timothystewart6/littlelink-server
     # image: timothystewart6/littlelink-server:latest
     container_name: littlelink-server
@@ -220,7 +220,7 @@ docker run -d \
   -e KIT='https://l.technotim.com/gear' \
   -e FOOTER=Techno Tim © 2022 \
   --restart unless-stopped \
-  ghcr.io/capcomman07/littlelink-server:latest
+  ghcr.io/nissansentra001/littlelink-server:latest
 ```
 
 ### Using Kubernetes
@@ -245,4 +245,3 @@ Or use a values.yaml file:
 See [docs/analytics.md](docs/analytics.md) for analytics setup instructions and [docs/healthcheck.md](docs/healthcheck.md) for health check configuration.
 
 Environment variables are read at request time, so changes take effect after a container restart without rebuilding the image.
-
