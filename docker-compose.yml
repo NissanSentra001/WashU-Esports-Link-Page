@@ -21,7 +21,7 @@ services:
       - AVATAR_SIZE=128px
       - AVATAR_URL=https://pbs.twimg.com/profile_images/1497700324076830726/8GGX8c7A_200x200.jpg
       - BANDCAMP=
-      - BIO=Hey! Here is WashU Esports's Link page!
+      - BIO=Hey! Here is WashU Esports's Link page for everything involving the Clash Royale Tournament!
       - BLUESKY=
       - BUTTON_ORDER=LINK_1,LINK_2,LINK_3,LINK_4,LINK_5
       - BUTTON_TARGET=_blank
@@ -29,13 +29,13 @@ services:
       - CASHAPP=
       - CODEWARS=
       - CREDLY=
-      - CUSTOM_BUTTON_ALT_TEXT=Start gg, Venmo, Google Forms, WUGO, Link 5
-      - CUSTOM_BUTTON_COLOR=#000000,#000DFF,#B45FF9,#000af8,#000000
-      - CUSTOM_BUTTON_ICON=https://images.seeklogo.com/logo-png/44/2/start-gg-logo-png_seeklogo-447400.png,https://images.seeklogo.com/logo-png/48/2/venmo-logo-png_seeklogo-480069.png,https://storage.googleapis.com/gweb-workspace-assets/uploads/7uffzv9dk4sn-dLG4WUec1C1xu9qyGbwiY-b44e5262637c2f0a61d25737294f3538-forms_2026q3-192px.optimized.svg ,https://pbs.twimg.com/profile_images/1497700324076830726/8GGX8c7A_400x400.jpg ,fas link
-      - CUSTOM_BUTTON_NAME=Start gg, Venmo, Google Forms, WUGO, Link 5
-      - CUSTOM_BUTTON_TEXT=Start gg Sign Up, Donate to the prize pool, PLEASE COMPLETE THE FORM, WUGO, Link 5
-      - CUSTOM_BUTTON_TEXT_COLOR=#ffffff,#ffffff,#ffffff,#ffffff,#ffffff
-      - CUSTOM_BUTTON_URL=https://www.start.gg/tournament/washu-clash-royale-tournament, https://venmo.com, https://docs.google.com/forms/d/e/1FAIpQLSftx1tWEhhpGTopvKEMAsHQLIHfYPvhDSaxZi3rWxw0PJvQQA/viewform?usp=header, https://wustl.presence.io/organization/sports-club-esports-and-gaming, https://example.com
+      - CUSTOM_BUTTON_ALT_TEXT=Start gg, Venmo, Google Forms, WUGO
+      - CUSTOM_BUTTON_COLOR=#000000,#000DFF,#B45FF9,#000af8
+      - CUSTOM_BUTTON_ICON=https://images.seeklogo.com/logo-png/44/2/start-gg-logo-png_seeklogo-447400.png,https://images.seeklogo.com/logo-png/48/2/venmo-logo-png_seeklogo-480069.png,https://storage.googleapis.com/gweb-workspace-assets/uploads/7uffzv9dk4sn-dLG4WUec1C1xu9qyGbwiY-b44e5262637c2f0a61d25737294f3538-forms_2026q3-192px.optimized.svg,https://pbs.twimg.com/profile_images/1497700324076830726/8GGX8c7A_400x400.jpg
+      - CUSTOM_BUTTON_NAME=Start gg, Venmo, Google Forms, WUGO
+      - CUSTOM_BUTTON_TEXT=Start gg Sign Up, Donate to the prize pool, PLEASE COMPLETE THE FORM, WUGO
+      - CUSTOM_BUTTON_TEXT_COLOR=#ffffff,#ffffff,#ffffff,#ffffff
+      - CUSTOM_BUTTON_URL=https://www.start.gg/tournament/washu-clash-royale-tournament, https://www.venmo.com/u/WashUEsports, https://docs.google.com/forms/d/e/1FAIpQLSftx1tWEhhpGTopvKEMAsHQLIHfYPvhDSaxZi3rWxw0PJvQQA/viewform?usp=header, https://wustl.presence.io/organization/sports-club-esports-and-gaming
       - DESIGNBYHUMANS=
       - DEVTO=
       - DISCORD=
